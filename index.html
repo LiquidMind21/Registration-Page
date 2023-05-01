@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="registration.js" defer></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>Registration Form</header>
+        <form action="#">
+
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title"> Personal Details</span>
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter your D.O.B" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter your e-mail" required>
+                        </div>
+
+
+                        <div class="input-field">
+                            <label>Contact number</label>
+                            <input type="number" placeholder="Enter your number" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sex/Gender</label>
+                            <input type="text" placeholder="M/F/O?" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="search" placeholder="Enter your occupation" required>
+                        </div>
+                    </div>
+                    <div class="details ID">
+                        <span class="title"> Identity Details</span>
+                        <div class="fields">
+
+                            <div class="input-field">
+                                <label>ID Type</label>
+                                <input type="text" placeholder="Enter the ID type e.g passport/drivers liscence"
+                                    required>
+
+                            </div>
+
+                            <div class="input-field">
+                                <label>ID number</label>
+                                <input type="text" placeholder="Enter your ID" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Date of issue</label>
+                                <input type="date" placeholder="Enter the date the ID was issued" required>
+                            </div>
+
+
+                            <div class="input-field">
+                                <label>Expiry date</label>
+                                <input type="date" placeholder="Enter the ID expiry date" required>
+
+                            </div>
+
+
+                        </div>
+                        <button class="nextBtn">
+                            <span class="btnText">Next</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+
+                        <div class="form second">
+                            <div class="details address">
+                                <span class="title"> Address details</span>
+                                <div class="fields">
+
+                                    <div class="input-field">
+                                        <label>First line of address</label>
+                                        <input type="text" placeholder="Enter your first line of address" required>
+
+                                    </div>
+
+                                    <div class="input-field">
+                                        <label>Date of residency</label>
+                                        <input type="date" placeholder="Enter your starting date" required>
+                                    </div>
+
+                                    <div class="input-field">
+                                        <label>House number</label>
+                                        <input type="number" placeholder="Enter your house number" required>
+                                    </div>
+
+
+                                    <div class="input-field">
+                                        <label>Postcode</label>
+                                        <input type="text" placeholder="Enter your postcode" required>
+
+                                    </div>
+
+                                    <div class="input-field">
+                                        <label>County</label>
+                                        <input type="text" placeholder="Which county do you live?" required>
+                                    </div>
+
+                                    <div class="input-field">
+                                        <label>House type</label>
+                                        <input type="text" placeholder="Flat/semi-detached etc" required>
+                                    </div>
+                                </div>
+                                <div class="details family">
+                                    <span class="title"> Family section</span>
+                                    <div class="fields">
+
+                                        <div class="input-field">
+                                            <label>Parental mother</label>
+                                            <input type="text" placeholder="Enter the mother's name" required>
+
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Parental father</label>
+                                            <input type="text" placeholder="Enter your father's name" required>
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Siblings</label>
+                                            <input type="text" placeholder="Enter any siblings" required>
+                                        </div>
+
+
+                                        <div class="input-field">
+                                            <label>Spouse/partner</label>
+                                            <input type="text" placeholder="Enter partner information if applicable"
+                                                required>
+
+                                        </div>
+
+
+                                    </div>
+        </form>
+    </div>
+    <div class="buttons"><button class="reBtn">
+            <span class="btnText">Reset</span>
+            <i class="uil uil-history-alt"></i>
+        </button>
+        <button class="subBtn">
+            <span class="btnText">Submit</span>
+            <i class="uil uil-check"></i>
+        </button>
+    </div>
+
+
+
+</body>
+
+</html>
